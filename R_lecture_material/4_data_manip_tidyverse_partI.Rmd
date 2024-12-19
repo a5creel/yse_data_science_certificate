@@ -106,7 +106,7 @@ library(ggplot2)
 - Important for your solution strategy to know that these are the functions you can build around 
 - I would say 90% of my data cleaning is different combinations of these functions
 - Why use dplyr instead of base R?
-    - It's faster and more memory efficient (good for large datasets)
+    - It's faster and more memory efficient (good for large data sets)
     - It's easier to read
 - Let's go through some examples of what we did in the Base R Lectures , but redo with dplyr code
 
