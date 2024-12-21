@@ -1,17 +1,15 @@
 By Andie Creel 
 
-Started November, 2024 
+Updated Dec 21, 2024 
 
 # Overview
-In this Git repo, I develop 9 lectures (six topics) for the YSE Data Science Certificate team. Below, I outline the lecture material. 
+In this Git repo, I develop 6 lectures for the YSE Data Science Certificate team. Below, I outline the lecture material. 
 
-In these lectures, students begin analyzing data in R and Python and learn how to organize their programming projects using R Projects and GitHub Repositories. A PDF of the lecture material accompanies each lecture so students can review it before, follow along during, and revisit the material later. I also have three problem sets that accompany these six topics. All examples are environmentally themed, as well as the problem sets. 
+In these lectures, students begin analyzing data in R and then Python. A PDF of the lecture material accompanies each lecture so students can review it before. An incomplete notebook is provided so for them to syncronously write it during recorded lectures. A complete notebook is provided for reference. All examples are environmentally themed, as well as the problem sets. 
 
-The first eight of these lectures should included in the Foundations section of the certificate. The GitHub lecture may fit better with project management material. 
+These 6 lectures should included in the Foundations section of the certificate. I have a GitHub lecture may fit better in another section of the certificate. 
 
-Last January, I taught a version of lectures over a three-day programming workshop to ~20 students. The workshop received a 4.7/5 review (from the 16 students who completed the feedback form). Students highlighted the lecture notes and problem sets as helpful for learning the material. I am offering this workshop again in January 2025.
-
-# Outline of Six Topics (9 Lectures)
+# Outline of Six Lectures 
 1. **Thinking Like a Computer (45 – 60 min)**
    - [Lecture One](lecture_material/1_think_like_computer.pdf) (45 – 60 min)
       - a. what's programming
@@ -21,53 +19,135 @@ Last January, I taught a version of lectures over a three-day programming worksh
       - e. the importance of pseudo-code
       - f. a note on debugging
 
-2. **Base R**
-   - [Lecture Two](lecture_material/2_base_R_I.pdf) (30 – 45 min)
-      - i. write and run scripts in R Studio
-      - ii. basic data types
-      - iii. ways to make collections of data (vector, matrix, dataframes)
-      - iv. variable assignment
-   - [Lecture Three](lecture_material/3_base_R_II.pdf) (30 – 45 min)
-      - i. Functions
-      - ii. Loops
-      - iii. If Else statements
+2. **Base R, Part 1**
+- Comments and Basic Data Types:
+   - How to write comments in R using the # symbol.
+   - The importance of comments for code readability and collaboration.
+   - Basic data types in R: numeric (integer and double), character (string), and logical (Boolean).
+- Basic Operations and Variables:
+   - Performing basic arithmetic operations.
+   - Creating and using variables.
+   - Changing the value of variables.
+- Vectors:
+   - Creating and using vectors.
+   - Understanding that vectors can only contain one data type.
+- Matrices:
+   - Creating matrices from vectors.
+   - Understanding that matrices can only contain one data type.
+- Lists:
+   - Introduction to lists and their flexibility in storing different data types.
+- Data Frames:
+   - Creating data frames and understanding their structure.
+   - Referencing columns, rows, and individual cells in a data frame.
+   - Adding new columns to a data frame.
+   - Assigning meaningful column names to a data frame.
 
-3. **Data Manipulation with Tidyverse**
-   - [Lecture Four](lecture_material/4_data_manip_tidyverse_partI.pdf) (30 – 45 min)
-      - i. if_else()
-      - ii. mutate()
-      - iii. filter()
-      - iv. select()
-      - v. group_by()
-      - vi. summarize()
-   - [Lecture Five](lecture_material/5_data_manip_tidyverse_partII.pdf) (30 – 45 min)
-      - i. left_join()
-      - ii. pivot_longer()
-      - iii. pivot_wider()
+3. **Base R, Part 2**
+- Functions and Flow Control:
+   - How to define and use functions in R.
+   - Understanding and implementing loops (for loops).
+   - Using if-else statements for conditional operations.
+- Global vs Local Variables:
+   - The difference between global and local variables.
+   - How to use and access these variables within and outside functions.
+- Error Handling:
+   - Basic error handling techniques using try() and tryCatch() functions.
+   - Strategies for debugging and handling errors effectively.
+- Simulation:
+   - Creating and running simulations using loops.
+   - Example of simulating temperature changes over years.
+- Apply Functions:
+   - Using apply() function to perform operations on data frames.
+   - Example of calculating mean temperatures for different parks.
+- If-Else Statements:
+   - Using if-else statements to correct data based on conditions.
+   - Example of adjusting park distances based on gender.
 
-4. **Data Management and Visualization**
-   - [Lecture Six](lecture_material/6-7_data_manage_vis/6_data_manage_vis_partI.pdf) (30 – 45 min)
-      - i. Small data set provided
-      - ii. Creating an R Project
-      - iii. File and Folder Structure
-      - iv. Importing Data
-   - [Lecture Seven](lecture_material/6-7_data_manage_vis/7_data_manage_vis_partII.pdf) (30 – 45 min)
-      - i. Data Visualization
-      - ii. Results Export
-      - iii. Introductory Best Practices for Data Vis
+4. **Data Cleaning**
+- Introduction to Tidyverse:
+   - Understanding what packages are and how to install and load them.
+   - Overview of the Tidyverse collection of packages for data science.
+- Data Manipulation with dplyr:
+   - Using `mutate()` to create or modify columns.
+   - Using `if_else()` for conditional operations.
+   - Using `filter()` to subset data based on conditions.
+   - Using `select()` to choose specific columns.
+   - Using `group_by()` to group data and perform operations by a category.
+   - Using `summarise()` to create summary tables.
+- Practical Examples:
+   - Examples of manipulating and cleaning data using the functions mentioned above.
+   - Real-world scenarios such as adjusting park distances, filtering ecosystems by pollution levels, and summarizing species richness.
 
-5. **Coding is Coding**
-   - [Lecture Eight](lecture_material/8_python/8_python.pdf) (45 – 60 min): Same material as Lecture 2, but in Python
 
-6. **Version Control with GitHub (45 – 60 min)**
-   - [Lecture Nine](lecture_material/9_github.pdf) (45 – 60 min)
-      - Why use GitHub
-      - Create a GitHub account
-      - Install, Set Up and Integrate Git with R Studio
-      - "Clone" a GitHub "Repository" to your local machine
-      - Make change, write commit messages and "push" back to GitHub
-      - "Pull" changes from GitHub to local computer
-      - "Fork" someone's GitHub Repository so you can make changes to their files locally
+5. **Introduction to Datasets**
+- Reading Data from CSV Files:
+   - Using functions like `read_csv()` to load data from CSV files into R.
+   - Understanding how to inspect the structure and summary of the dataset using functions like `glimpse()`, `summary()`, and `head()`.
+- Revisits Data Cleaning and Preparation:
+   - Revisits a few techniques for cleaning and preparing the dataset for analysis.
+- Creating Plots with ggplot2:
+   - Using the `ggplot2` package to create scatter plots and other types of visualizations.
+   - Understanding the basic structure of a `ggplot` call, including specifying aesthetics with `aes()` and adding layers like `geom_point()`.
+- Facet Wrapping:
+   - Learning how to use `facet_wrap()` to create multiple plots within the same graph, separated by a categorical variable (e.g., manufacturer).
+   - This allows for easy comparison of the same relationship across different categories.
+- Customizing Plots:
+   - Adding titles and labels to the plots using the `labs()` function to make the visualizations more informative.
+   - Customizing other aspects of the plot to improve readability and presentation.
+- Storing and Displaying Graphs:
+   - Storing a graph as an object in R and displaying it when needed.
+   - This helps in organizing and reusing plots efficiently.
+
+6. **Introduction to Python**
+- Understanding the similarities and differences between Python and other programming languages.
+- Running basic Python code, such as printing "Hello World".
+- Basic Data Types and Operations:
+   - Performing basic arithmetic operations.
+   - Variable assignment and reassignment.
+   - Understanding and using different data types: integers, floating-point numbers, strings, and Booleans.
+   - Dynamic typing in Python.
+- Data Structures:
+   - Creating and manipulating lists, including lists with mixed data types.
+   - Using NumPy arrays for numerical data and understanding their similarities to R matrices.
+   - Creating and accessing elements in lists and arrays.
+- DataFrames with Pandas:
+   - Installing and importing the pandas package.
+   - Creating DataFrames from NumPy arrays and dictionaries.
+   - Renaming columns and accessing columns using both bracket [] notation and dot . notation.
+   - Adding new columns to DataFrames.
+- Indexing and Selecting Data:
+   - Using .iloc[] for integer-location based indexing.
+   - Using .loc[] for label-based indexing.
+   - Accessing specific rows, columns, and cells using both .iloc[] and .loc[].
+- Functions:
+   - Defining functions using the def keyword.
+   - Writing a function to model a quadratic relationship and returning values.
+- Loops:
+   - Writing for loops to iterate over ranges and lists.
+   - Combining loops with functions to perform repeated calculations.
+- Conditional Statements:
+   - Using if-else statements to create classifications based on conditions.
+   - Iterating over DataFrame rows and using .loc to update DataFrame cells based on conditions.
+
+7. **Datasets and Python**
+
+- Data Manipulation with Pandas:
+   - Creating and manipulating DataFrames.
+   - Selecting specific columns using `loc` or `iloc`.
+   - Grouping data and calculating aggregate statistics using `groupby()`.
+   - Applying multiple aggregation functions using `agg()`.
+   - Adding or modifying columns using `assign()`.
+   - Conditionally modifying values using `np.where()`.
+   - Filtering rows using boolean indexing.
+   - Dropping rows with missing values using `dropna()`.
+- Reading in a Dataset and Gathering Basic Information:
+   - Reading a CSV file into a DataFrame.
+   - Displaying basic information about the DataFrame using methods like `head()`, `tail()`, `shape`, `columns`, `info()`, and `describe()`.
+- Basic Data Cleaning:
+   - Filtering and cleaning data based on specific research questions.
+   - Dropping unnecessary columns.
+- Basic Data Visualization:
+   - Creating various plots using `matplotlib` and `seaborn`.
 
 # Problem Sets
 
@@ -79,13 +159,6 @@ Last January, I taught a version of lectures over a three-day programming worksh
     - [Answer Key](problem_sets/2_answer_key.pdf)
 3. [Problem Set Three](problem_sets/3_pset.pdf)
     - [Answer Key](problem_sets/3_answer_key.pdf)
-
-
-# to dos 
-
-- mention in data vis lecture they'll learn more later 
-- change repo they clone in github lecture 
-- Edit problem sets
 
 
 
