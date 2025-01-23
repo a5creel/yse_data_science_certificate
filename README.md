@@ -11,15 +11,16 @@ These 6 lectures should included in the Foundations section of the certificate. 
 
 # Outline of Six Lectures 
 1. **Thinking Like a Computer (45 – 60 min)**
-   - [Lecture One](lecture_material/1_think_like_computer.pdf) (45 – 60 min)
-      - a. what's programming
-      - b. keyword definitions
-      - c. problem definition and solution
-      - d. why you should code (vs Excel and other software)
-      - e. the importance of pseudo-code
-      - f. a note on debugging
+- [Slides](1_think_like_computer.pdf)
+   - a. what's programming
+   - b. keyword definitions
+   - c. problem definition and solution
+   - d. why you should code (vs Excel and other software)
+   - e. the importance of pseudo-code
+   - f. a note on debugging
 
-2. **Base R, Part 1**
+2. **Base R, Part 1 (51 Minutes)**
+- [Complete Jupyter Notebook](jupyter_notebooks/complete_lecture_notebooks/1_base_R_I.ipynb)
 - Comments and Basic Data Types:
    - How to write comments in R using the # symbol.
    - The importance of comments for code readability and collaboration.
@@ -43,6 +44,7 @@ These 6 lectures should included in the Foundations section of the certificate. 
    - Assigning meaningful column names to a data frame.
 
 3. **Base R, Part 2**
+- [Complete Jupyter Notebook](jupyter_notebooks/complete_lecture_notebooks/2_base_R_II.ipynb)
 - Functions and Flow Control:
    - How to define and use functions in R.
    - Understanding and implementing loops (for loops).
@@ -64,6 +66,7 @@ These 6 lectures should included in the Foundations section of the certificate. 
    - Example of adjusting park distances based on gender.
 
 4. **Data Cleaning**
+- [Complete Jupyter Notebook](jupyter_notebooks/complete_lecture_notebooks/3_data_manip_tidyverse.ipynb)
 - Introduction to Tidyverse:
    - Understanding what packages are and how to install and load them.
    - Overview of the Tidyverse collection of packages for data science.
@@ -80,6 +83,7 @@ These 6 lectures should included in the Foundations section of the certificate. 
 
 
 5. **Introduction to Datasets**
+- [Complete Jupyter Notebook](jupyter_notebooks/complete_lecture_notebooks/4_datasets_basic_info/4_basic_info_datasets_vis.ipynb)
 - Reading Data from CSV Files:
    - Using functions like `read_csv()` to load data from CSV files into R.
    - Understanding how to inspect the structure and summary of the dataset using functions like `glimpse()`, `summary()`, and `head()`.
@@ -99,6 +103,7 @@ These 6 lectures should included in the Foundations section of the certificate. 
    - This helps in organizing and reusing plots efficiently.
 
 6. **Introduction to Python**
+- [Complete Jupyter Notebook](jupyter_notebooks/complete_lecture_notebooks/5_python_I.ipynb)
 - Understanding the similarities and differences between Python and other programming languages.
 - Running basic Python code, such as printing "Hello World".
 - Basic Data Types and Operations:
@@ -130,7 +135,7 @@ These 6 lectures should included in the Foundations section of the certificate. 
    - Iterating over DataFrame rows and using .loc to update DataFrame cells based on conditions.
 
 7. **Datasets and Python**
-
+- [Complete Jupyter Notebook](jupyter_notebooks/complete_lecture_notebooks/6_python_II/6_python_II.ipynb)
 - Data Manipulation with Pandas:
    - Creating and manipulating DataFrames.
    - Selecting specific columns using `loc` or `iloc`.
@@ -151,14 +156,10 @@ These 6 lectures should included in the Foundations section of the certificate. 
 
 # Problem Sets
 
-1. [Problem Set One](problem_sets/1_pset.pdf)
-    - [Answer Key](problem_sets/1_answer_key.pdf)
-2. Problem Set Two 
-    - [Challenge Version](problem_sets/2_pset.pdf) 
-    - [Easier Verizon](problem_sets/2_pset_EASIER.pdf) 
-    - [Answer Key](problem_sets/2_answer_key.pdf)
-3. [Problem Set Three](problem_sets/3_pset.pdf)
-    - [Answer Key](problem_sets/3_answer_key.pdf)
+1. [Problem Set One](problem_sets/1_pset_base_R.ipynb)
+2. [Problem Set Two](problem_sets/2_pset_R_and_data.ipynb)
+3. [Problem Set Three](problem_sets/3_pset_intro_python.ipynb)
+
 
 
 
