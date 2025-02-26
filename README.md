@@ -20,7 +20,7 @@ These 6 lectures should included in the Foundations section of the certificate. 
    - f. a note on debugging
 
 2. **Base R, Part 1 (51 Minutes)**
-- [Complete Jupyter Notebook](jupyter_notebooks/complete_lecture_notebooks/1_base_R_I.ipynb)
+- [Complete Jupyter Notebook](final_lecture_material/2_base_R_I/base_R_I_worksheet.ipynb)
 - Comments and Basic Data Types:
    - How to write comments in R using the # symbol.
    - The importance of comments for code readability and collaboration.
@@ -44,7 +44,7 @@ These 6 lectures should included in the Foundations section of the certificate. 
    - Assigning meaningful column names to a data frame.
 
 3. **Base R, Part 2**
-- [Complete Jupyter Notebook](jupyter_notebooks/complete_lecture_notebooks/2_base_R_II.ipynb)
+- [Complete Jupyter Notebook](final_lecture_material/3_base_R_II/base_R_II_notebook.ipynb)
 - Functions and Flow Control:
    - How to define and use functions in R.
    - Understanding and implementing loops (for loops).
@@ -66,7 +66,7 @@ These 6 lectures should included in the Foundations section of the certificate. 
    - Example of adjusting park distances based on gender.
 
 4. **Data Cleaning**
-- [Complete Jupyter Notebook](jupyter_notebooks/complete_lecture_notebooks/3_data_manip_tidyverse.ipynb)
+- [Complete Jupyter Notebook](final_lecture_material/4_data_manip_tidyverse/data_manip_tidyverse.ipynb)
 - Introduction to Tidyverse:
    - Understanding what packages are and how to install and load them.
    - Overview of the Tidyverse collection of packages for data science.
@@ -83,10 +83,13 @@ These 6 lectures should included in the Foundations section of the certificate. 
 
 
 5. **Introduction to Datasets**
-- [Complete Jupyter Notebook](jupyter_notebooks/complete_lecture_notebooks/4_datasets_basic_info/4_basic_info_datasets_vis.ipynb)
+- [Complete Jupyter Notebook](final_lecture_material/5_intro_data_management/basic_info_datasets.ipynb)
 - Reading Data from CSV Files:
    - Using functions like `read_csv()` to load data from CSV files into R.
    - Understanding how to inspect the structure and summary of the dataset using functions like `glimpse()`, `summary()`, and `head()`.
+
+6. **Introduction to Data Visualization**
+- [Complete Jupyter Notebook](final_lecture_material/6_data_viz/datasets_vis.ipynb)
 - Revisits Data Cleaning and Preparation:
    - Revisits a few techniques for cleaning and preparing the dataset for analysis.
 - Creating Plots with ggplot2:
@@ -102,8 +105,8 @@ These 6 lectures should included in the Foundations section of the certificate. 
    - Storing a graph as an object in R and displaying it when needed.
    - This helps in organizing and reusing plots efficiently.
 
-6. **Introduction to Python**
-- [Complete Jupyter Notebook](jupyter_notebooks/complete_lecture_notebooks/5_python_I.ipynb)
+7. **Introduction to Python**
+- [Complete Jupyter Notebook](final_lecture_material/7_intro_to_coding_python/python_I.ipynb)
 - Understanding the similarities and differences between Python and other programming languages.
 - Running basic Python code, such as printing "Hello World".
 - Basic Data Types and Operations:
@@ -134,8 +137,8 @@ These 6 lectures should included in the Foundations section of the certificate. 
    - Using if-else statements to create classifications based on conditions.
    - Iterating over DataFrame rows and using .loc to update DataFrame cells based on conditions.
 
-7. **Datasets and Python**
-- [Complete Jupyter Notebook](jupyter_notebooks/complete_lecture_notebooks/6_python_II/6_python_II.ipynb)
+8. **Datasets and Python**
+- [Complete Jupyter Notebook](final_lecture_material/8_python_datasets/6_python_II.ipynb)
 - Data Manipulation with Pandas:
    - Creating and manipulating DataFrames.
    - Selecting specific columns using `loc` or `iloc`.
