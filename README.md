@@ -1,6 +1,7 @@
 By Andie Creel 
 
-Updated Dec 21, 2024 
+First updated Dec 21, 2024 
+Revised on Feb 26, 2025
 
 # Overview
 In this Git repo, I develop 6 lectures for the YSE Data Science Certificate team. Below, I outline the lecture material. 
