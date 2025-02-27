@@ -139,7 +139,7 @@ These 6 lectures should included in the Foundations section of the certificate. 
    - Iterating over DataFrame rows and using .loc to update DataFrame cells based on conditions.
 
 8. **Datasets and Python**
-- [Complete Jupyter Notebook](final_lecture_material/8_python_datasets/6_python_II.ipynb)
+- [Complete Jupyter Notebook](final_lecture_material/8_python_datasets/python_II.ipynb)
 - Data Manipulation with Pandas:
    - Creating and manipulating DataFrames.
    - Selecting specific columns using `loc` or `iloc`.
