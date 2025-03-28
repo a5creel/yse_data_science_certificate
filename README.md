@@ -158,6 +158,12 @@ These 6 lectures should included in the Foundations section of the certificate. 
 - Basic Data Visualization:
    - Creating various plots using `matplotlib` and `seaborn`.
 
+9. **Data Cleaning, Part II**
+- [Complete Jupyter Notebook](final_lecture_material/9_data_manip_part_II/data_manip_part_II.ipynb)
+- `left_join()`
+- `pivot_longer()`
+- `pivot_wider()`
+
 # Problem Sets
 
 1. [Problem Set One](problem_sets/1_pset_base_R.ipynb)
