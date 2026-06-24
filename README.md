@@ -1,7 +1,11 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 By Andie Creel 
 
-First updated Dec 21, 2024 
-Revised on Feb 26, 2025
+Feb 26, 2025
 
 # Overview
 In this Git repo, I develop 6 lectures for the YSE Data Science Certificate team. Below, I outline the lecture material. 
